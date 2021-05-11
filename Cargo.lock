@@ -2091,7 +2091,7 @@ checksum = "712e227841d057c1ee1cd2fb22fa7e5a5461ae8e48fa2ca79ec42cfc1931183f"
 [[package]]
 name = "wry"
 version = "0.9.2"
-source = "git+https://github.com/tauri-apps/wry?branch=feat/ios#a198f9e87f010898774b752feba60679fed34214"
+source = "git+https://github.com/tauri-apps/wry?branch=feat/ios#f2996bde1d750b0591c1dfe5faa92d2da6e628cd"
 dependencies = [
  "cocoa",
  "core-graphics 0.22.2",

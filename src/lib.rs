@@ -32,19 +32,6 @@ fn main() {
 
     let mut weviews = HashMap::new();
 
-
-    let window = WindowBuilder::new()
-        .with_preferred_screen_edges_deferring_system_gestures(ScreenEdge::all())
-        .build(&event_loop)
-        .unwrap();
-
-    let _webview = WebViewBuilder::new(window)
-        .unwrap()
-        .with_url("https://tauri.studio")
-        .unwrap()
-        .build()
-        .unwrap();
-
     event_loop.run(move |event, event_loop, control_flow| {
         *control_flow = ControlFlow::Wait;
         match event {
