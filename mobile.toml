@@ -1,0 +1,8 @@
+[app]
+name = "wry-ios"
+stylized-name = "Wry"
+domain = "lemarier.ca"
+template-pack = "winit"
+
+[apple]
+development-team = "3KF8V3679C"
